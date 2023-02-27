@@ -25,21 +25,21 @@ The World Bank's license for its datasets can found here: https://datacatalog.wo
 
 
 ### Data type and description
-The data dictionary can be seen as follow
+The data dictionary for the processed dataset can be seen as follow
 
 
-      #   Column                         Data Type  
-     ---  ------                           -----  
-      0   Country/Region                  object 
-      1   Year                            object 
-      2   GDP                             float64
-      3   GDP Growth                      float64
-      4   GNI per Capita                  float64
-      5   Inflation Rate                  float64
-      6   Unemployment Rate               float64
-      7   Primary Sector (% of GDP)       float64
-      8   Secondary Sector (% of GDP)     float64
-      9   Tertiary Sector (% of GDP)      float64
+      #   Column                          Data Type      Description
+     ---  ------                          -----          -----     
+      0   Country/Region                  object         Name of a country, geographic region, or economic grouping
+      1   Year                            object         The year that the data were collected
+      2   GDP (in billions)               float64        GDP, in billions USD, of a country
+      3   GDP Growth                      float64        GDP Growth, in %, of a country
+      4   GNI per Capita                  float64        GNI per Capita, in USD, of a country
+      5   Inflation Rate                  float64        Inflation Rate, in %, of a country
+      6   Unemployment Rate               float64        Unemployment Rate, in %, of a country
+      7   Primary Sector (% of GDP)       float64        % of GDP contributed from the Primary Sector
+      8   Secondary Sector (% of GDP)     float64        % of GDP contributed from the Secondary Sector
+      9   Tertiary Sector (% of GDP)      float64        % of GDP contributed from the Tertiary Sector
  
 
 ### Potential issues
